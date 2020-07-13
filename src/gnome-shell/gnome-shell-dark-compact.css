@@ -31,7 +31,7 @@ stage {
 /* WIDGETS */
 /* Buttons */
 .button {
-  min-height: 32px;
+  min-height: 30px;
   padding: 0 16px;
   border-width: 0;
   border-radius: 12px;
@@ -82,7 +82,7 @@ stage {
 /* Entries */
 GPasteSearchEntry,
 StEntry {
-  min-height: 32px;
+  min-height: 30px;
   padding: 0 8px;
   border-radius: 0;
   border-width: 0;
@@ -215,7 +215,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 
 /* Check Boxes */
 .check-box * {
-  min-height: 16px;
+  min-height: 14px;
   padding: 8px 0;
 }
 
@@ -226,7 +226,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 .check-box StBin {
   width: 24px;
   height: 24px;
-  padding: 4px;
+  padding: 3px;
   border-radius: 100px;
   background-image: url("assets/checkbox-off.svg");
 }
@@ -1263,7 +1263,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
   /* transition from solid to transparent */
   transition-duration: 250ms;
   font-weight: bold;
-  height: 32px;
+  height: 30px;
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.2), 0 0 4px rgba(0, 0, 0, 0.3);
   border-radius: 0 0 16px 16px;
 }
@@ -3405,7 +3405,7 @@ StWidget.focused .app-well-app-running-dot {
   transition-duration: 150ms;
   padding-left: 16px;
   padding-right: 16px;
-  min-height: 32px;
+  min-height: 30px;
   padding: 0 32px;
 }
 
@@ -3456,7 +3456,7 @@ StWidget.focused .app-well-app-running-dot {
 }
 
 .lg-obj-inspector-button {
-  min-height: 32px;
+  min-height: 30px;
   padding: 0 16px;
   border: none;
   border-radius: 12px;

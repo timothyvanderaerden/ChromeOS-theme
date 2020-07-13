@@ -22,7 +22,7 @@ $disabled_opacity: 0.5;
 
 // sizes
 $small_size: if($laptop == 'false', 24px, 20px);
-$medium_size: if($laptop == 'false', 36px, 32px);
+$medium_size: if($laptop == 'false', 36px, 30px);
 $large_size: if($laptop == 'false', 48px, 44px);
 
 $container_padding: if($laptop == 'false', 6px, 4px);
